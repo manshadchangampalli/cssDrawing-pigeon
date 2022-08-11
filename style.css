@@ -61,6 +61,7 @@ body {
   content: '';
   position: absolute;
   top: -18px;
+  display: none;
   left: 11px;
   border-radius: 50%;
   width: 26px;
@@ -219,5 +220,31 @@ body {
   top: 126px;
   background: #e9e9e9;
   left: 111px;
+}
+
+.frame .wraper .shadowonwings {
+  width: 125px;
+  height: 13px;
+  border-radius: 0px 0px 0px 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#656565));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #656565 100%);
+  top: 139px;
+  left: 210px;
+  -webkit-transform: rotate(324deg);
+          transform: rotate(324deg);
+}
+
+.frame .wraper .wingsend {
+  top: 230px;
+  left: 133px;
+  -webkit-transform: rotate(54deg);
+          transform: rotate(54deg);
+  height: 100px;
+  -webkit-box-shadow: inset -1px -7px 5px #fff;
+          box-shadow: inset -1px -7px 5px #fff;
+  border-bottom: 7px solid #0000002b;
+  border-radius: 0px 0px 69px 86px;
+  width: 151px;
+  background: #36363600;
 }
 /*# sourceMappingURL=style.css.map */

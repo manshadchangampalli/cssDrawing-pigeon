@@ -51,6 +51,7 @@ body {
         content: '';
         position: absolute;
         top: -18px;
+        display: none;
         left: 11px;
         border-radius: 50%;
         width: 26px;
@@ -202,5 +203,26 @@ body {
       background: $PrimaryColor;
       left: 111px;
     }
+    .shadowonwings{
+      width: 125px;
+      height: 13px;
+      border-radius: 0px 0px 0px 100%;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #656565 100%);
+      top: 139px;
+      left: 210px;
+      transform: rotate(324deg);
+    }
+    .wingsend{
+      top: 230px;
+      left: 133px;
+      transform: rotate(54deg);
+      height: 100px;
+      box-shadow: inset -1px -7px 5px #fff;
+      border-bottom: 7px solid #0000002b;
+      border-radius: 0px 0px 69px 86px;
+      width: 151px;
+      background: #36363600;
+    }
+    
   }
 }
