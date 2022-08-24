@@ -11,6 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: grid;
+  background: rgb(255, 236, 196);
   place-items: center;
 }
 .frame {
@@ -19,11 +20,13 @@ body {
   background: #000;
   display: -ms-grid;
   border-radius: 10px;
+  box-shadow: inset 8px 9px 2px #ffffff57, 5px 5px 15px #0000008f;
   display: grid;
   place-items: center;
   .wraper {
     width: 500px;
     height: 450px;
+    box-shadow:4px 4px 5px #ffffff7e;
     position: relative;
     background: linear-gradient(180deg, #3f79be 0%, #7ea5d3 100%);
     overflow: hidden;
